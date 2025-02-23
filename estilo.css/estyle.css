@@ -16,7 +16,7 @@ body{
     display: flex;
     flex-direction: column;
     /* border: 1px solid red; */
-    height: 1900px;
+    height: 1940px;
 }
 main{
     display: flex;
@@ -96,6 +96,16 @@ h3{
 }
 .cards img{
     border-radius: 50%;
+}
+p{
+    color: rgb(255, 255, 255);
+    /* margin-left: 80%; */
+    
+    
+}
+footer{
+    
+    text-align: center;
 }
 @media (max-width: 768px) {
     .conteudo {
