@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300; /* Ou 200 para mais fina */
+    background-color: #240a20;
+    /* background: linear-gradient(to bottom, #290629,#140213 ); */
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    height: 1900px;
+}
+main{
+    display: flex;
+    /* border: 2px solid red; */
+    align-items: center;
+    height: 1900px;
+    
+    flex-direction: column;
+}
+.conteudo{
+    display: flex;
+    border: 1px solid rgb(163, 163, 163); 
+    height: 1890px;
+    border-radius: 7px;
+    width: 40%;
+    padding: 20px;
+}
+h1{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #9146FF, #FF00FF); /* Roxo para Rosa */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card{
+    display: flex;
+    /* margin-top: 60px; */
+    flex-direction: column;
+    /* border: 1px solid rgb(187, 182, 182); */
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+
+}
+.card a:hover{
+    text-decoration: none;
+}
+.cards {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(202, 202, 202);
+    cursor: pointer;
+    transition: transform 0.40s ease-in-out;
+    border-radius: 5px;
+    gap: 10px;
+    color: white;
+    width: 90%;
+    /* height: 57px; */
+    padding: 9px;
+    background-color: #9146FF; /* Cor do Twitch */
+}
+.cards:hover{
+    background-color: rgb(116, 10, 238);
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+    
+}
+a{
+    display: flex;
+    width: 90%;
+    text-decoration: none;
+    justify-content: center;
+}
+.cards img{
+    width: 50px;
+    align-items: center;
+    /* border: 1px solid red; */
+
+    margin: 0;
+    /* justify-content: center; */
+}
+h3{
+    display: flex;
+    font-size: 17px;
+}
+.cards img{
+    border-radius: 50%;
+}
+@media (max-width: 768px) {
+    .conteudo {
+        width: 90%; /* Aumenta a largura para ocupar mais espaço */
+        padding: 10px;
+        height: 1470px;
+    }
+
+    .cards {
+        width: 100%; /* Ajusta a largura para preencher o container */
+        height: 50px; /* Reduz um pouco a altura para melhor encaixe */
+        gap: 8px;
+        padding: 6px;
+    }
+
+    .cards img {
+        width: 40px; /* Reduz um pouco o tamanho da imagem */
+        height: 40px;
+    }
+    @media (max-width: 360px){
+        .conteudo {
+            width: 90%; /* Aumenta a largura para ocupar mais espaço */
+            padding: 10px;
+            height: 1520px;
+        }
+        h1{
+            text-align: center;
+        }
+    
+    }
