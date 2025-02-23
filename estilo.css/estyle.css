@@ -113,6 +113,9 @@ footer{
         padding: 10px;
         height: 1470px;
     }
+    .container{
+        height: 1600px;
+    }
 
     .cards {
         width: 100%; /* Ajusta a largura para preencher o container */
